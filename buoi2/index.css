@@ -1,0 +1,43 @@
+@font-face {
+    font-family: my font;
+    src: url('font-family/TikiTropic.ttf');
+    
+}
+body{
+   
+    text-align: center;
+    background: rgb(210,90,30);
+background: linear-gradient(52deg, rgba(210,90,30,1) 0%, rgba(68,193,36,1) 11%, rgba(39,196,60,1) 20%, rgba(214,179,209,1) 33%, rgba(220,171,223,1) 49%, rgba(103,165,166,1) 62%, rgba(214,63,78,1) 77%, rgba(0,212,255,1) 100%);
+}
+ul li{
+    list-style-type: none;
+    margin: auto;
+    font-weight: bolder;
+    text-align:justify;
+    padding-left: 43%;
+
+}
+a{
+    text-decoration: none;
+}
+.b1,.b2{
+    
+color: 	#6A5ACD;
+}
+.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9,.t10,.t11
+{
+    color: white;
+font-style: italic;
+font-size: 18px;
+}
+.m1,.m2,.m3,.m4{
+    color: 		#F4A460;
+font-family: my font;
+font-size: 30px;
+}
+table 
+{
+    border-collapse: collapse;
+    margin: auto;
+    
+}
