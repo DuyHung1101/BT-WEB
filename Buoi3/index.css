@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box ;
+}
+body{
+    background-color: white;
+    padding-bottom: 4rem;
+}
+.ong{
+    background-color: black;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.ong ul{
+    display: flex;
+    justify-content: end;
+}
+.ong ul a.cha{
+    display: block;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-style: 15px;
+    padding: 0 2rem;
+}
+.ong ul a.cha:hover{
+    background-color: rgb(172, 98, 71);
+    font-weight: bold;
+    font-size: 15px;
+}
+.blue{
+    color: rgb(92, 92, 145);
+    margin-right: 2px;
+}
+.red{
+    color: rgb(228, 76, 76);
+    margin-right: 2px;
+}
+.green{
+    color: rgb(64, 201, 64);
+    margin-right: 2px;
+}
+.yellow{
+    color: rgb(233, 233, 41);
+    margin-right: 2px;
+}
+.ong ul li .con {
+    position:absolute;
+    background-color:rgb(83, 102, 119);
+    min-width: 15rem;
+    border-radius: 0 0 2px 2px;
+    padding-bottom: .5rem;
+    display: none;
+    box-shadow: 0 0 12px rgba(54, 180, 132, 0.932);
+}
+.ong ul li .con a{
+    display: block;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 5px;
+    color: chartreuse;
+}
+.ong ul li .con a:hover{
+    background-color: rgb(185, 60, 87);
+    font-weight: 700;
+}
+.ong ul li:hover .con{
+    display: block;
+}
+.box{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    color: rgb(10, 10, 10);
+    padding: 1rem;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0 0 12px rgb(235, 196, 196);
+    border-radius: 3px;
+}
+.box-title{
+    margin: 1.5rem 0;
+    width: 60%;
+    font-family: cursive;
+}
+.box-content{
+    display: flex;
+}
+.content-left{
+    width: 40%;
+    padding: .5rem;
+    text-align: justify;
+}
+.content-left img, .content-left video{
+    width: 100%;
+}
+.content-left h3{
+    margin: 1rem 0;
+}
+.content-left span{
+    color: rgb(192, 131, 241);
+    margin: 1.5rem 0;
+    display: block;
+}
+.content-right{
+    width: 60%;
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
+}
+.content-right-1{
+    display: flex;
+    padding-bottom: 1rem;
+    margin: 1rem 0;
+    
+}
+.border-dashed{
+    border-bottom: 2px dashed rgb(133, 2, 122)
+}
+.avatar-1{
+    width: 8rem;
+    height: 8rem;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 8rem;
+    background-color: rgb(53, 102, 192);
+}
+.avatar-2{
+    width: 8rem;
+    height: 8rem;
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    line-height: 8rem;
+    background-color: rgb(129, 83, 214);
+}
+.avatar-3{
+    width: 8rem;
+    height: 8rem;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    line-height: 8rem;
+    background-color: rgb(145, 82, 32);
+}
+
+.content{
+    padding-left: 2rem;
+    font-family: cursive;
+}
+.content h1{
+    margin-bottom: .5rem;
+}
+table th, table td{
+    text-align: center;
+    padding: 0.5rem 0.3rem;
+}
+table span{
+    display: inline !important;
+}
+table img{
+    width: 30px !important;
+}
+.line{
+    background: rgb(210,90,30);
+    background: linear-gradient(52deg, rgba(210,90,30,1) 0%, rgba(68,193,36,1) 11%, rgba(39,196,60,1) 20%, rgba(214,179,209,1) 33%, rgba(220,171,223,1) 49%, rgba(103,165,166,1) 62%, rgba(214,63,78,1) 77%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 3px;
+}
+.contact{
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(100 180 159);
+    margin-top: 3rem;
+}
+.contact .contact-line{
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+.contact .contact-line .block-input{
+    width: 50%;
+    padding: 0 .5rem;
+}
+.block-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .8rem .5rem;
+    border-radius: 3px;
+}
+.contact-item{
+    padding: 0 .4rem;
+}
+.contact textarea{
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    padding: .8rem .5rem;
+    border-radius: 3px;
+    min-height: 10rem;
+    resize: none;
+}
+.contact-item .gtt{
+    margin-top: 1rem;
+    width: 100%;
+    padding: .8rem ;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #353535;
+    color: white;
+    font-size: 18px;
+}
